@@ -4,8 +4,8 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 ## 📊 Statistics
 
-- **Total Problems Solved:** 3
-- **Easy:** 0 🟢
+- **Total Problems Solved:** 4
+- **Easy:** 1 🟢
 - **Medium:** 3 🟡
 - **Hard:** 0 🔴
 
@@ -13,6 +13,7 @@ My LeetCode solutions, automatically synced from [LeetCode](https://leetcode.com
 
 | Problem | Difficulty | Language | Date |
 |---------|-----------|----------|------|
+| [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | javascript | 2026-02-09 |
 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | javascript | 2026-02-09 |
 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/submissions/1913420222/) | 🟡 Medium | javascript | 2026-02-09 |
 | [Unknown Problem](https://leetcode.com/problems/min-stack/submissions/1913417272/) | 🟡 Medium | javascript | 2026-02-09 |
