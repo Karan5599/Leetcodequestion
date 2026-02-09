@@ -1,0 +1,31 @@
+/*
+ * Problem: 206. Reverse Linked List
+ * Difficulty: Easy
+ * Link: https://leetcode.com/problems/reverse-linked-list/
+ * Language: javascript
+ * Date: 2026-02-09
+ */
+
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var reverseList = function(head) {
+    let prev = null;
+    let curr = head;
+
+    while(curr){
+        let temp = curr.next;
+        curr.next = prev;
+        prev = curr;
+        curr = temp;
+    }
+    return prev
+};
