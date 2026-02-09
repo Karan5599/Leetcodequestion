@@ -1,7 +1,7 @@
 /*
  * Problem: 503. Next Greater Element II
  * Difficulty: Medium
- * Link: https://leetcode.com/problems/next-greater-element-ii/description/
+ * Link: https://leetcode.com/problems/next-greater-element-ii/submissions/1913420222/
  * Language: javascript
  * Date: 2026-02-09
  */
