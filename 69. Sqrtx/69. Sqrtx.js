@@ -1,9 +1,9 @@
 /*
  * Problem: 69. Sqrt(x)
  * Difficulty: Easy
- * Link: https://leetcode.com/problems/sqrtx/submissions/1938500540/
+ * Link: https://leetcode.com/problems/sqrtx/submissions/1939922784/
  * Language: javascript
- * Date: 2026-03-05
+ * Date: 2026-03-06
  */
 
 /**
@@ -17,7 +17,9 @@ var mySqrt = function (x) {
     let r = Math.floor(x / 2);
 
     while (l <= r) {
-        let m = Math.floor((l + r) / 2);
+        // let m = Math.floor((l + r) / 2);
+
+        let m = Math.floor(l+(r-l)/2)
         if (x === m ** 2) {
             return m;
         }
