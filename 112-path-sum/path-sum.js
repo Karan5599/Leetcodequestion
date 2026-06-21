@@ -18,7 +18,10 @@ var hasPathSum = function (root, targetSum) {
         let totalsum = curr.val + sum;
         if (!curr.left && !curr.right) {
             if (totalsum === targetSum) {
-                ans = ans || true;
+                ans = true;
+            }
+            else{
+                return ans;
             }
         }
         curr.left && traversal(curr.left, totalsum)
