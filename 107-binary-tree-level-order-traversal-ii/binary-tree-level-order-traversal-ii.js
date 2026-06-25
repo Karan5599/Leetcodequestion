@@ -24,7 +24,7 @@ var levelOrderBottom = function(root) {
             curr.right && q.push(curr.right);
             res.push(curr.val)
         }
-        ans.push(res)
+        ans.unshift(res)
     }
-    return ans.reverse();
+    return ans;
 };
