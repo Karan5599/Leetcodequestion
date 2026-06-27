@@ -24,6 +24,6 @@ var countNodes = function(root) {
             count++
         }
     }
-    traversal(root, 1);
+    traversal(root);
     return count;
 };
